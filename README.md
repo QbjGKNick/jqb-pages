@@ -1,4 +1,4 @@
-# zce-pages
+# jqb-pages
 
 [![NPM Downloads][downloads-image]][downloads-url]
 [![NPM Version][version-image]][version-url]
@@ -12,10 +12,10 @@
 ## Installation
 
 ```shell
-$ yarn add zce-pages
+$ yarn add jqb-pages
 
 # or npm
-$ npm install zce-pages
+$ npm install jqb-pages
 ```
 
 ## Usage
@@ -23,16 +23,16 @@ $ npm install zce-pages
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const zcePages = require('zce-pages')
-const result = zcePages('zce')
-// result => 'zce@zce.me'
+const jqbPages = require("jqb-pages");
+const result = jqbPages("jqb");
+// result => 'jqb@jqb.me'
 ```
 
 ## API
 
 <!-- TODO: Introduction of API -->
 
-### zcePages(name[, options])
+### jqbPages(name[, options])
 
 #### name
 
@@ -45,7 +45,7 @@ const result = zcePages('zce')
 
 - Type: `string`
 - Details: host string
-- Default: `'zce.me'`
+- Default: `'jqb.me'`
 
 ## Contributing
 
@@ -60,19 +60,17 @@ const result = zcePages('zce')
 
 ## License
 
-[MIT](LICENSE) &copy; zce <w@zce.me> (https://zce.me)
+[MIT](LICENSE) &copy; gknick <gknick@126.com>
 
-
-
-[downloads-image]: https://img.shields.io/npm/dm/zce-pages.svg
-[downloads-url]: https://npmjs.org/package/zce-pages
-[version-image]: https://img.shields.io/npm/v/zce-pages.svg
-[version-url]: https://npmjs.org/package/zce-pages
-[license-image]: https://img.shields.io/github/license/zce/zce-pages.svg
-[license-url]: https://github.com/zce/zce-pages/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/zce-pages.svg
-[dependency-url]: https://david-dm.org/zce/zce-pages
-[devdependency-image]: https://img.shields.io/david/dev/zce/zce-pages.svg
-[devdependency-url]: https://david-dm.org/zce/zce-pages?type=dev
+[downloads-image]: https://img.shields.io/npm/dm/jqb-pages.svg
+[downloads-url]: https://npmjs.org/package/jqb-pages
+[version-image]: https://img.shields.io/npm/v/jqb-pages.svg
+[version-url]: https://npmjs.org/package/jqb-pages
+[license-image]: https://img.shields.io/github/license/jqb/jqb-pages.svg
+[license-url]: https://github.com/jqb/jqb-pages/blob/master/LICENSE
+[dependency-image]: https://img.shields.io/david/jqb/jqb-pages.svg
+[dependency-url]: https://david-dm.org/jqb/jqb-pages
+[devdependency-image]: https://img.shields.io/david/dev/jqb/jqb-pages.svg
+[devdependency-url]: https://david-dm.org/jqb/jqb-pages?type=dev
 [style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com

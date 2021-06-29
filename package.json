@@ -1,29 +1,29 @@
 {
-  "name": "zce-pages",
+  "name": "jqb-pages",
   "version": "0.2.0",
   "description": "static web app workflow",
   "keywords": [
-    "zce-pages",
-    "zce"
+    "jqb-pages",
+    "jqb"
   ],
-  "homepage": "https://github.com/zce/zce-pages#readme",
+  "homepage": "https://github.com/jqb/jqb-pages#readme",
   "bugs": {
-    "url": "https://github.com/zce/zce-pages/issues"
+    "url": "https://github.com/jqb/jqb-pages/issues"
   },
   "license": "MIT",
-  "author": "zce <w@zce.me> (https://zce.me)",
+  "author": "GKNick <gknick@126.com>",
   "files": [
     "lib",
     "bin"
   ],
   "main": "lib/index.js",
-  "bin": "bin/zce-pages.js",
+  "bin": "bin/jqb-pages.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zce/zce-pages.git"
+    "url": "git+https://github.com/jqb/jqb-pages.git"
   },
   "scripts": {
     "lint": "standard --fix"
